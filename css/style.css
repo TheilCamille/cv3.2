@@ -1,0 +1,453 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    width: 1300px;
+    height: 700px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    border: 1px #00A2FF solid;
+    padding: 2%;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 98%;
+    height: auto;
+    padding: 1%;
+    margin: 0 5% 0 5%;
+    text-align: left;
+    line-height: 160%;
+}
+
+#newArticle2 {
+    height: auto;
+    width: auto;
+    margin-left: 3em;
+    margin-top: 5em;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    font-size: 20px;
+}
+
+h2 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    font-size: 20px;
+}
+.devicon-html5-plain {
+    font-size:  2em;
+}
+
+.devicon-css3-plain {
+    font-size: 2em;
+}
+
+.devicon-javascript-plain {
+    font-size: 2em;
+}
+
+.devicon-jquery-plain {
+    font-size: 2em;
+}
+
+.devicon-php-plain {
+    font-size: 2em;
+}
+
+.devicon-mysql-plain {
+    font-size: 2em;
+}
+
+.devicon-nodejs-plain {
+    font-size: 2em;
+}
+
+.devicon-mongodb-plain {
+    font-size: 2em;
+}
+
+.devicon-linux-plain {
+    font-size: 2em;
+}
+
+.devicon-github-plain {
+    font-size: 2em;
+}
+
+.devicon-trello-plain {
+    font-size: 2em;
+}
+
+.devicon-gimp-plain {
+    font-size: 2em;
+}
+
+.devicon-angularjs-plain {
+    font-size: 2em;
+}
+
+.devicon-react-original {
+    font-size: 2em;
+}
+
+.devicon-bootstrap-plain {
+    font-size: 2em;
+}
+
+.devicon-wordpress-plain {
+    font-size: 2em;
+}
+a {
+    color: #00A2FF;
+    
+}
+
+a:visited {
+    color: #00A2FF;
+}
+
+#mario {
+    position: absolute;
+    bottom: 2em;
+    height: 14em;
+    -webkit-animation-name: mario-running;
+            animation-name: mario-running;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-iteration-count: initial;
+            animation-iteration-count: initial;
+}
+
+#tuyau {
+    height: 18em;
+    position: absolute;
+    bottom: 0.5em;
+    right: -10em;
+    z-index: 2;
+    
+    -webkit-animation-name: tuyau;
+    
+            animation-name: tuyau;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-iteration-count: initial;
+            animation-iteration-count: initial;
+}
+
+.tuyau-out {
+    -webkit-animation-name: tuyau-out;
+            animation-name: tuyau-out;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-iteration-count: initial;
+            animation-iteration-count: initial;
+}
+
+#sonic {
+    position: absolute;
+    height: 12em;
+    bottom: 0.3em;
+    animation-name: sonic-run;
+    animation-duration: 7s;
+    animation-direction: normal;
+    animation-iteration-count: initial;
+}
+
+@keyframes sonic-run {
+    0% {
+        transform: translateX(-800%);
+    }
+    100% {
+        transform: translateX(600%);
+    }
+}
+@-webkit-keyframes mario-running {
+    0% {
+        -webkit-transform: translateX(-400%);
+                transform: translateX(-400%);
+    }
+    
+    100% {
+        -webkit-transform: translateX(500%);
+                transform: translateX(500%);
+    }
+}
+
+@keyframes mario-running {
+    0% {
+        -webkit-transform: translateX(-400%);
+                transform: translateX(-400%);
+    }
+    
+    100% {
+        -webkit-transform: translateX(500%);
+                transform: translateX(500%);
+    }
+}
+@-webkit-keyframes tuyau {
+    0% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);  
+    }
+    
+    50% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+    100% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);
+    }
+}
+@keyframes tuyau {
+    0% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);  
+    }
+    
+    50% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+    100% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);
+    }
+}
+
+@-webkit-keyframes tuyau-out {
+    0% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+    
+    100% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);
+    }
+}
+
+@keyframes tuyau-out {
+    0% {
+        -webkit-transform: translateX(0%);
+                transform: translateX(0%);
+    }
+    
+    100% {
+        -webkit-transform: translateX(300%);
+                transform: translateX(300%);
+    }
+}
+
+@media (max-width: 800px) {
+   main {
+        font-size: 10px;
+    }
+    
+    h1 {
+        position: relative;
+        font-size: 15px;
+    }
+    
+    h2 {
+        position: relative;
+        font-size: 15px;
+    }
+    
+    #content1 {
+        margin-bottom: 8em;
+    }
+}
+
+@media (max-width: 1300px) {
+    main {
+    width: 800px;
+    height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        width: 90%;
+        height: 90%;
+        margin: inherit;
+        padding: inherit;
+        font-size: 10px;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 0;
+        height: 15em;
+        width: 100%;
+        margin: inherit;
+        
+    }
+    
+    h1 {
+    position: absolute;
+    margin: inherit;
+    font-size: 12px;
+    
+    }
+    
+    h2 {
+    position: absolute;
+    font-size: 12px;
+    top: 3em;
+    margin: inherit;
+    }
+    #content1 {
+        text-align: center;
+        padding: 2%;
+    }
+    
+    .devicon-html5-plain {
+    font-size:  1em;
+}
+
+.devicon-css3-plain {
+    font-size: 1em;
+}
+
+.devicon-javascript-plain {
+    font-size: 1em;
+}
+
+.devicon-jquery-plain {
+    font-size: 1em;
+}
+
+.devicon-php-plain {
+    font-size: 1em;
+}
+
+.devicon-mysql-plain {
+    font-size: 1em;
+}
+
+.devicon-nodejs-plain {
+    font-size: 1em;
+}
+
+.devicon-mongodb-plain {
+    font-size: 1em;
+}
+
+.devicon-linux-plain {
+    font-size: 1em;
+}
+
+.devicon-github-plain {
+    font-size: 1em;
+}
+
+.devicon-trello-plain {
+    font-size: 1em;
+}
+
+.devicon-gimp-plain {
+    font-size: 1em;
+}
+
+.devicon-angularjs-plain {
+    font-size: 1em;
+}
+
+.devicon-react-original {
+    font-size: 1em;
+}
+
+.devicon-bootstrap-plain {
+    font-size: 1em;
+}
+
+.devicon-wordpress-plain {
+    font-size: 1em;
+}
+    #newArticle {
+        font-size: 8px;
+    }
+    
+    #newArticle2 {
+        font-size: 8px;
+    }
+    
+    #content1 div {
+        font-size: 10px;
+    }
+}
